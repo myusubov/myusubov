@@ -75,4 +75,4 @@ I prioritize deep-diving into framework internals—like Next.js execution conte
 [![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=github&logoColor=white)](https://muradyusubov.dev/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muradyusubovdev@icloud.com)
 
-**Email:** muradyusubovdev@icloud.com | **Location:** Remote (UTC+3)
+**Email:** me@muradyusubov.dev | **Location:** Baku, Remote (UTC+4)
