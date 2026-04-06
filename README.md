@@ -2,7 +2,7 @@
 
 <h1 align="center">Murad Yusubov | Full-Stack Engineer</h1>
 <p align="center">
-Building event-driven web systems and AI-assisted products with Next.js, Node.js, Redis, BullMQ, and SSE.
+Full-Stack Engineer building state-heavy product applications with scalable architecture and thoughtful AI integration.
 </p>
 
 ---
