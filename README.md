@@ -1,78 +1,96 @@
 <img src="https://9nghnaawajmv9mqf.public.blob.vercel-storage.com/github-header-banner.png" alt="GitHub Banner" width="100%" />
 
-<h1 align="center">🧠 Murad Yusubov | Full-Stack Software Engineer</h1>
-<p align="center">Specializing in AI Orchestration, Event-Driven Systems, and High-Integrity Web Applications.</p>
+<h1 align="center">Murad Yusubov | Full-Stack Engineer</h1>
+<p align="center">
+Building event-driven web systems and AI-assisted products with Next.js, Node.js, Redis, BullMQ, and SSE.
+</p>
 
 ---
 
-## 👋 About Me
+## About Me
 
-I am a Full-Stack Engineer focused on building high-integrity systems where data consistency and system resilience are non-negotiable. I move beyond "feature building" to solve complex architectural challenges—ranging from **deterministic state management** to **asynchronous AI orchestration**.
+I’m a Full-Stack Engineer focused on Next.js, Node.js, and event-driven backend workflows.
 
-I prioritize deep-diving into framework internals—like Next.js execution contexts and Prisma connection pooling—to ensure architectural choices are built for production-grade reliability.
+My strongest work is around systems that need more than standard CRUD: long-running AI jobs, real-time progress updates, queue-based processing, and backend architectures that stay predictable under production pressure.
 
-**Current Focus:** Scaling fault-tolerant Node.js backends and implementing RAG-lite AI architectures.
+I care about clear system boundaries, reliability, and practical engineering decisions over buzzwords.
 
----
-
-## 🚀 Featured Systems
-
-### [🧾 ScopeMatter | Project Governance & SaaS](https://github.com/Biolater/scopematter)
-**Architected a trust engine designed to eliminate revenue leakage from scope creep.**
-🔗 **Live:** [scopematter.xyz](https://scopematter.xyz/)
-
-* **Deterministic State Machine:** Implemented a strict transition model for Change Orders to ensure financial data integrity.
-* **Write-Through Caching:** Engineered an $O(1)$ dashboard read strategy using **Upstash Redis**, significantly reducing database load.
-* **Sovereign BFF Pattern:** Developed a secure proxy layer using **Next.js 15 Server Actions**, decoupling frontend state from database mutations.
-* **Transactional Atomicity:** Leveraged Prisma Transactions to ensure all-or-nothing execution for complex financial updates.
+**Current focus:** TailorCV, asynchronous AI pipelines, and scalable Node.js backends.
 
 ---
 
-### [🤖 TailorCV | AI Infrastructure](https://github.com/Biolater/tailorcv)
-**High-throughput AI resume engineering platform built for structured technical data extraction.**
+## Featured Project
 
-* **Asynchronous AI Pipeline:** Engineered a resilient background system using **BullMQ and Redis** to handle long-running LLM workloads.
-* **Context Compression:** Designed a custom optimization layer reducing token consumption by **40%** while maintaining 100% accuracy.
-* **Real-Time Streaming:** Implemented live progress tracking using **Redis Pub/Sub** and Server-Sent Events (SSE).
-* **Multi-Vector Ingestion:** Developed a unified pipeline for GitHub API data and binary file (PDF/DOCX) parsing.
+### [TailorCV](https://github.com/myusubov/tailorcv) | Async AI Resume Pipeline
+AI-assisted resume platform built to process technical proof-of-work through a queue-driven architecture instead of blocking synchronous requests.
+
+**Live:** [tailorcv.xyz](https://tailorcv.xyz)
+
+#### What makes it technically interesting
+
+- **Asynchronous job architecture:** Built a BullMQ-based pipeline to handle long-running LLM workloads without request timeouts.
+- **Real-time progress updates:** Streamed worker progress to the client using Redis Pub/Sub and Server-Sent Events.
+- **Context compression:** Reduced token usage by ~40% by pruning noisy repository data while preserving high-signal technical context.
+- **Separation of concerns:** Decoupled request intake, background execution, and client updates into distinct layers for more predictable behavior.
+- **AI grounded in structured inputs:** Built the generation flow around normalized technical evidence rather than freeform prompting.
+
+#### Core stack
+
+- Next.js 16
+- React 19
+- Node.js / Express
+- PostgreSQL + Prisma
+- Redis
+- BullMQ
+- OpenAI SDK
+- SSE
 
 ---
 
-### [💰 Student Budget Buddy | Fintech Engine](https://github.com/Biolater/Student-Budget-Buddy)
-**Intelligent multi-currency financial analytics engine.**
-🔗 **Live:** [student-bugdet-buddy-lyje.vercel.app](https://student-bugdet-buddy-lyje.vercel.app/)
+## Selected Work
 
-* **Fault-Tolerant Normalization:** Engineered a conversion engine using a **Circuit Breaker pattern** to handle 3rd-party API outages.
-* **Temporal Projection:** Architected a recurring logic system using **RRule** to compute future cash flow obligations.
-* **Performance:** Integrated **Prisma Accelerate** to mitigate serverless connection pooling constraints.
+I’ve also built and shipped supporting full-stack projects around client workflows and data-heavy interfaces, but TailorCV is the main project where my backend and systems thinking are most visible.
+
+For current professional work, I’ve been leading frontend and systems-heavy implementation on an AI-native CRM, including complex data views, pipeline interactions, and schema-driven UI architecture. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 💻 Technical Arsenal
+## Tech Stack
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Languages** | TypeScript, JavaScript (ES6+), Python, SQL |
-| **Frontend** | Next.js 15 (App Router), React, TanStack Query, Tailwind CSS, HeroUI |
-| **Backend** | Node.js, Express, PostgreSQL, Prisma ORM, Redis, BullMQ |
-| **Infrastructure** | Docker, AWS, Vercel, Supabase, Zod (Contract Validation) |
-| **AI/ML** | OpenAI SDK (RAG-lite), LangChain, Pandas, scikit-learn |
+| **Languages** | TypeScript, JavaScript, SQL, Python |
+| **Frontend** | Next.js, React, TanStack Query, Tailwind CSS |
+| **Backend** | Node.js, Express, PostgreSQL, Prisma |
+| **Infrastructure** | Redis, BullMQ, SSE, Vercel, Docker |
+| **Validation & State** | Zod, Zustand |
+| **AI** | OpenAI SDK, context compression, structured prompt pipelines |
 
 ---
 
-## 🏆 Engineering Standards
+## What I Optimize For
 
-* **Type Safety:** End-to-end Zod-enforced API contracts.
-* **Scalability:** Implementation of write-through caching and message queues (Redis/BullMQ).
-* **Resilience:** Defensive programming via Circuit Breakers and Graceful Degradation.
-* **Precision:** Financial data handled with Decimal/BigInt logic to prevent floating-point errors.
+- **Clear system design:** predictable data flow, separation between request handling and background execution
+- **Reliability:** queue-based processing, graceful failure handling, reduced timeout risk
+- **Performance:** minimizing unnecessary work across API, worker, and client update paths
+- **Technical clarity:** systems that are understandable to maintain, not just impressive to describe
 
 ---
 
-## 🌐 Connectivity
+## Current Direction
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murad-yusubov/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=github&logoColor=white)](https://muradyusubov.dev/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muradyusubovdev@icloud.com)
+I’m most interested in remote engineering work involving:
 
-**Email:** me@muradyusubov.dev | **Location:** Baku, Remote (UTC+4)
+- Next.js and Node.js product engineering
+- Event-driven architecture
+- Real-time systems
+- AI-assisted product infrastructure
+- Backend-heavy full-stack roles where system design matters
+
+---
+
+## Connect
+
+- **Portfolio:** [muradyusubov.dev](https://muradyusubov.dev)
+- **LinkedIn:** [linkedin.com/in/murad-yusubov](https://linkedin.com/in/murad-yusubov/)
+- **Email:** me@muradyusubov.dev
