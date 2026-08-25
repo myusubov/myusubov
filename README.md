@@ -26,8 +26,6 @@ Built and owned core product areas of an AI-native CRM: interactive data tables,
 
 **Core:** React, Next.js, TypeScript, Node.js, Express.js
 
-Also comfortable with: PostgreSQL, MongoDB, Redis, Clerk, AWS Cognito, Google OAuth, Docker, Zod
-
 ---
 
 ## Connect
