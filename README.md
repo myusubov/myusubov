@@ -30,6 +30,6 @@ React, Next.js, TypeScript, Node.js, Express.js, PostgreSQL, MongoDB, Redis, Tai
 
 ## Connect
 
-Portfolio: [muradyusubov.dev](https://muradyusubov.dev)
-LinkedIn: [linkedin.com/in/murad-yusubov](https://linkedin.com/in/murad-yusubov/)
-Email: me@muradyusubov.dev
+- Portfolio: [muradyusubov.dev](https://muradyusubov.dev)
+- LinkedIn: [linkedin.com/in/murad-yusubov](https://linkedin.com/in/murad-yusubov/)
+- Email: me@muradyusubov.dev
