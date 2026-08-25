@@ -1,5 +1,3 @@
-<img src="https://9nghnaawajmv9mqf.public.blob.vercel-storage.com/github-header-banner.png" alt="GitHub Banner" width="100%" />
-
 # Murad Yusubov | Full-Stack Developer
 
 Full-Stack Developer working with React, Next.js, TypeScript, Node.js, and Express.js. Nine months of remote contract experience building complex product interfaces for an AI-native CRM, now looking for remote full-stack roles with early-stage teams.
